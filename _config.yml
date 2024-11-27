@@ -25,12 +25,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   Arbeiten.
 baseurl: "/notfall-demo" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+lang: "de"
 
 twitter_username: kieluni
 facebook_username: kieluni
 instagram_username: kieluni
 youtube_username: kieluni
-linkedin_usrname: kieluni
+#linkedin_username: kieluni
 
 minima:
   date_format: "%-d. %-m. %Y, %H:%M"
@@ -39,7 +40,7 @@ show_excerpts: true
 header_pages:
   - about.md
 
-paginate: 2
+paginate: 5
 
 # Build settings
 theme: minima

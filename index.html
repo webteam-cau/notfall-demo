@@ -6,13 +6,6 @@ layout: default
 list_title: Neuigkeiten
 ---
 <h1 class="post-title">{{ page.list_title | default: "Posts" }}
-<div class="pagination" style="float:right;">
-  (<a href="{{ paginator.previous_page_path | default:'' }}"
-      class="previous">⮜</a>
-  {{ paginator.page }} / {{ paginator.total_pages }}
-  <a href="{{ paginator.next_page_path | default: '' }}"
-     class="next">⮞</a>)
-</div>
 </h1>
 <ul class="post-list">
 {% for post in paginator.posts %}
@@ -21,3 +14,10 @@ list_title: Neuigkeiten
 </ul>
 
 <!-- Pagination links -->
+<nav class="pagination" style="float:right;">
+  (<a href="{{ paginator.previous_page_path | default:'' }}"
+      class="previous">⮜</a>
+  {{ paginator.page }} / {{ paginator.total_pages }}
+  <a href="{{ paginator.next_page_path | default: '' }}"
+     class="next">⮞</a>)
+</nav>
