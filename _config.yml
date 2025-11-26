@@ -18,16 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: We're working on it.
+title: Dies ist eine Übung.
 email: kaputt@uni-kiel.de
 description: >- # this means to ignore newlines until "baseurl:"
-  Und wir sind gerade kaputt. Hier informieren wir über den Stand der
+  Wir sind eine ungenannte Universität in Norddeutschland.
+  Und wenn alles kaputtgeht, sieht das so aus. Hier informieren wir über den Stand der
   Arbeiten.
 baseurl: "/notfall-demo" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: "de"
 
-twitter_username: kieluni
+#twitter_username: kieluni
 facebook_username: kieluni
 instagram_username: kieluni
 youtube_username: kieluni
