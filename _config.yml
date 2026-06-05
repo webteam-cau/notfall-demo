@@ -33,6 +33,9 @@ facebook_username: kieluni
 instagram_username: kieluni
 youtube_username: kieluni
 #linkedin_username: kieluni
+mastodon:
+  - username: kieluni
+    instance: social.schleswig-holstein.de
 
 minima:
   date_format: "%-d. %-m. %Y, %H:%M"
